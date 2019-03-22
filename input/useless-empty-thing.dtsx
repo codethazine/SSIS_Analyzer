@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="It goes, it goes, it goes, it goes"
+  DTS:CreationDate="2/26/2019 11:36:15 AM"
+  DTS:CreationName="SSIS.Package.3"
+  DTS:CreatorComputerName="It goes, it goes, it goes, it goes"
+  DTS:CreatorName="Guillotine yah"
+  DTS:DTSID="{90BA7BDE-ACB4-RNDM-NUMB-R12DE502DF58}"
+  DTS:ExecutableType="SSIS.Package.3"
+  DTS:LastModifiedProductVersion="11.0.6020.0"
+  DTS:LocaleID="1040"
+  DTS:ObjectName="useless-empty-thing"
+  DTS:PackageType="5"
+  DTS:ProtectionLevel="0"
+  DTS:VersionBuild="116"
+  DTS:VersionGUID="{39186B21-E29F-4EFC-8A43-46E86B93A0DF}">
+</DTS:Executable>
