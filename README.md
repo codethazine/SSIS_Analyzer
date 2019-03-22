@@ -6,4 +6,5 @@ You just need need to put your SSIS packages from you Data Tools solution into a
 
 Hope it helps someone else as much as it has helped me 
 
-btw it's written in python 2.7
+btw it's written in python 2.7 and it's been tested only with SQL Server 2012
+
