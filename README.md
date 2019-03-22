@@ -1,6 +1,6 @@
 # ssis_analyzer
 
-All this script does it's extracting queries and relative connections from SSIS packages (.dtsx files).
+All this script does it's extracting queries and their related connections from SSIS packages (.dtsx files).
 You just need need to put your SSIS packages into an input folder, run the script and the job is done!
 
 
