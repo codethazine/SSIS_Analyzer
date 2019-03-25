@@ -34,17 +34,21 @@ for myfile in os.listdir(os.getcwd()+".\\input"):
                         conn_count = 0
                         elle = (l for z in y.getchildren() for k in z.getchildren() for g in k.getchildren() for h in g.getchildren() \
                             for j in h.getchildren() for l in j.getchildren())
+                        query_pump = "***The table has been imported as a whole***"
                         for connne in elle:
                             if 'connectionManagerRefId' in connne.attrib:
                                 conn_count += 1
                                 connectionsss.append(connne.attrib['connectionManagerRefId'])
-                            if 'UITypeEditor' in connne.attrib:
+                            #print connne.attrib
+
+                            if 'SqlCommand' == connne.attrib['name']:
                                 if connne.text is not None:
                                     query_pump = connne.text
+                                
                         print "\n\n\n"
                         print "[DATA PUMP TASK]      " + y.attrib['{www.microsoft.com/SqlServer/Dts}refId']
                         print "------------------------------------------------------------------------------------"
                         print query_pump
                         print "------------------------------------------------------------------------------------"
-                        print "[INPUT CONNECTION]    " + connectionsss[0]
-                        print "[OUTPUT CONNECTION]   " + connectionsss[1] + "\n"
+                        print "[INPUT CONNECTION]    " + connectionsss[1]
+                        print "[OUTPUT CONNECTION]   " + connectionsss[0] + "\n"
